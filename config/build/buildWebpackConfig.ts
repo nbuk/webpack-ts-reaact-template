@@ -14,7 +14,7 @@ export function buildWebpackConfig(
     mode,
     entry: paths.entry,
     output: {
-      filename: isDev ? "calculator.js" : "calculator.min.js",
+      filename: isDev ? "bundle.js" : "bundle.min.js",
       path: paths.build,
       clean: true,
     },
